@@ -1,0 +1,35 @@
+---
+title: "On the Estimation of Ground-Motion Duration Models with an Application to the M9 Simulations"
+author:
+  - Nicolas Kuehn^[Unversity of California, Los Angeles, kuehn@ucla.edu]
+  - Melanie Walling^[GeoEngineers Inc., mwalling@geoengineers.com]
+date: "`r format(Sys.time(), '%d %B, %Y')`"
+output:
+  html_document:
+  #pdf_document:
+    keep_md: true
+    toc: true
+    toc_depth: 2
+    number_sections: true
+    highlight: tango
+link-citations: yes
+linkcolor: blue
+citecolor: blue
+urlcolor: blue
+bibliography: /Users/nico/BIBLIOGRAPHY/BIBTEX/references.bib
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE, fig.width=8, fig.asp = 0.8, out.width = '50%', fig.show="hold",
+                      fig.path = 'pictures/',
+                      root.dir = '/Users/nico/GROUNDMOTION/PROJECTS/SUBDUCTION/DURATION/Git/Duration_M9')
+```
+
+# Introduction
+
+This is a short description on how to estimate the models in ``On the Estimation of Ground-Motion Duration Models with an Application to the M9 Simulations'' by Kuehn and Walling.
+We briefly describe the analysis.
+
+# Getting Started
+
+
